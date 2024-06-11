@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+nav {
+    height: 80px;
+    width: 95%;
+    background-color: black;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 1em;
+
+    font-weight: 800;
+    list-style-type: none;
+
+    .logo {
+        margin-right: auto;
+    }
+
+    a {
+        color: #c2b9d3;
+        text-decoration: none;
+    }
+
+    li {
+        margin: 5px 10px;
+        padding: 5px;
+    }
+
+    button {
+        border: none;
+        color: white;
+        height: 40px;
+        width: 140px;
+        border-radius: 25px;
+        background-color: #6c5ce7;
+    }
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img/lap.png');
+    img {
+        position: absolute;
+
+    }
+}
+
+.slogan {
+    font-size: 2em;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 0%;
+}
+.content h1 {
+    font-weight: 800;
+    font-size: 6em;
+}
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom:0px;
+    left: 35%;
+    z-index: 2;
+}
+
+.center button {
+    color: white;
+    background-color: #6c5ce7;
+    width: 390px;
+    height: 55px;
+    border-style: none;
+    border-radius: 25px;
+}
+.detail {
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.detail h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.detail p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.social-stats span {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #ddd;
+}
+.right{
+   max-width:  50%;
+}
+.feature-item {
+    flex: 1 1 30%;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.feature-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.item-detail{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.item-detail h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.item-detail p {
+    font-size: 14px;
+    color: black;
+}
+
+.editor-preview {
+    margin-top: 50px;
+}
+
+.editor-preview h3 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #6c5ce7;
+}
+
+.editor-preview img {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial-item {
+    flex: 1 1 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0 20px;
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+/* Pricing Section */
+.pricing {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.pricing-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 20%;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.pricing-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-item .price {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.pricing-item p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.purchase-btn {
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
